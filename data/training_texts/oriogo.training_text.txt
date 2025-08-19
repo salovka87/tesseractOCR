@@ -1,0 +1,47 @@
+# Core multilingual invoice corpus (CZ/SK/DE/EN/PL/DA/SV/NO/RO)
+# Includes diacritics, currencies, punctuation, dates, numbers.
+
+Dodavatel: ABC s.r.o., IČO 12345678, DIČ CZ12345678, IBAN CZ65 0800 0000 1920 0012 3456, SWIFT GIBACZPX.
+Odběratel: Klient a.s., číslo faktury FA-2025-000123, datum vystavení 18.08.2025, datum splatnosti 31.08.2025.
+Položka: Vývoj software, množství 12 ks, jednotková cena 1 234,50 Kč, cena bez DPH 14 814,00 Kč, DPH 21 %, celkem 17 931, - Kč.
+
+Dodávateľ: Firma, IČO 87654321, IČ DPH SK1234567890, Splatnosť 15.09.2025, Variabilný symbol 20250818.
+Položka: Služba, množstvo 3 ks, cena bez DPH 100,00 EUR, DPH 20 %, celkom 120,00 EUR.
+
+Lieferant: Muster GmbH, USt-IdNr. DE123456789, Steuernummer 12/345/67890, Rechnungsnummer RE-2025-015.
+Zahlungsziel 14 Tage, Überweisung, Nettobetrag 350,00 €, Bruttobetrag 416,50 €.
+
+Supplier: Example Ltd., Invoice No INV-2025-001, Issue date 2025-08-18, Due date 2025-09-01.
+Item: Subscription, Qty 10, Unit price 49.00 USD, Subtotal 490.00 USD, Tax 0.00 USD, Total 490.00 USD.
+
+Dostawca: Spółka z o.o., NIP 123-45-67-890, Nr faktury FV/08/2025/001, Termin płatności 14 dni.
+Pozycja: Usługa, Ilość 5 szt., Cena jednostkowa 199,99 zł, Razem 999,95 zł.
+
+Leverandør: Eksempel A/S, CVR 12345678, Fakturanummer 2025-045.
+Beløb til betaling 12.345,67 DKK, Betalingsbetingelser 14 dage.
+
+Leverantör: Företag AB, Org.nr 556677-8899, Fakturanummer 2025-078.
+Belopp att betala 8 765,43 SEK.
+
+Leverandør: Eksempel AS, Org.nr 912 345 678, Forfallsdato 30.09.2025.
+Beløp å betale 4 321,00 NOK.
+
+Furnizor: Exemplu SRL, CUI RO12345678, Număr factură FCT-2025-100.
+Suma de plată 2.345,00 RON.
+
+# Currencies & symbols on purpose, mixed punctuation
+EUR €  USD $  GBP £  PLN zł  CZK Kč  DKK kr  SEK kr  NOK kr  RON lei  CHF ₣  JPY ¥  RUB ₽  UAH ₴  VND ₫
++ - × ÷ = ~ ≈ ≤ ≥ % ° © ® ™ # @ & * / \ | _ ( ) [ ] { } < > " ' : ; , . … – —
+
+# Dates & numbers formats
+18.08.2025  2025-08-18  18/08/2025  1 234,56  12 345,67  123,00  0,99  100,00
+VS: 1234567890  KS: 0308  SS: 123
+IBAN: CZ6508000000192000123456  BIC: RZBCCZPP
+Číslo účtu: 19-2000123456/0800  2000123456/5500
+
+# Email patterns & addresses
+fakturace@example.com  billing@example.co.uk  kontakt@firma.cz  info@spółka.pl  office@unternehmen.de
+podpora@domena.cz  účtárna@firma.cz  finance@firma.sk  faktury@company.com  support@company.se
+
+# Repeated lines to emphasize punctuation and currencies
+Celkem k úhradě: 17 931,00 Kč.  Celkem k úhradě: 1 234,50 EUR.  Celkem k úhradě: 490.00 USD.
